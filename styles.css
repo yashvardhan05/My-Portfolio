@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #24252A ; */
+}
+
+body{
+    background-color: #24252A ;
+}
+
+li,a, button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10% ;
+  order: 3;
+  margin-left: auto;
+}
+
+nav{
+    order: 1;
+}
+
+.logo{
+    width: 150px;
+    height: 200px;
+    cursor: pointer;
+  margin-right: auto;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.cta{
+    order: 2;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s ;
+    margin-left: 10px;
+
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+/* //----------- cards css // */
+
+.main-img{
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
+    align-items: center;
+    margin: auto;
+    margin-top: 4rem;
+}
+.second-header-line{
+    text-align: center;
+    color: #60A5FA;
+
+}
+
+.first-header{
+    text-align: center;
+    color: white;
+}
+.project-section{
+    text-align: center;
+    color: #60A5FA;
+    margin-top: 2rem;
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+}
+
+.blogs-header{
+    text-align: center;
+    color: #60A5FA;
+}
+.project-header{
+    text-align: center;
+    color: #60A5FA;
+}
+
+
+.main{
+
+    margin: 2%;
+   }
+   
+   .card{
+        width: 20%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px; 
+        margin: 2%;
+       color: #93C5FD;
+       }
+   
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     
+   
+    
+    }
+   
+   .title{
+    
+     text-align: center;
+     padding: 10px;
+     
+    }
+   
+   
+   
+   .des{
+     padding: 3px;
+     text-align: center;
+    
+     padding-top: 10px;
+           border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+   button{
+     margin-top: 40px;
+     margin-bottom: 10px;
+     /* background-color: white;
+     border: 1px solid black; */
+     border-radius: 5px;
+     padding:10px;
+    
+   }
+   button:hover{
+     background-color: black;
+     color: white;
+     transition: .5s;
+     cursor: pointer;
+   }
+
+   .blogs-main{
+       text-align: center;
+       color:#60A5FA ;
+       margin-top: 2rem;
+   }
+
+   .blog-see-button{
+       display: flex;
+       justify-content: center;
+       
+   }
+.footer-main{
+    text-align: center;
+    margin-top: 5rem;
+    background-color: #0088a9;
+    border-top-left-radius:34%;
+    border-bottom-right-radius:22%;
+    border-bottom-left-radius:22%;
+
+}
+
+.footer-content ul li a {
+    color: antiquewhite;
+    display: inline;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+   text-align: center;
+   flex-direction: row;
+   justify-content: 100px;
+   margin-right: 40px;
+  
+}
+
+
+
+.proj-header-text{
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+.projone{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10rem;
+    color: #FCD34D;
+}
+
+
+.blog1-head{
+    display: flex;
+    text-align: center;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.blog-1-heading{
+    color: yellow;
+    margin-bottom: 2rem;
+}
+
+.blog-2-heding{
+    margin-top: 2rem;
+}
